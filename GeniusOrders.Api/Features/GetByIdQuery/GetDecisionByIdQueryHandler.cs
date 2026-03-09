@@ -1,18 +1,19 @@
 using AutoMapper;
 using GeniusOrders.Api.Data;
+using GeniusOrders.Api.Features.Dtos;
 using MediatR;
 
 namespace GeniusOrders.Api.Features.GetByIdQuery;
 
-public class GetDecisionByIdQueryHandler(GeniusDbContext context, IMapper mapper) : IRequestHandler<GetDecisionByIdQuery, GetDecisionDto>
+public class GetDecisionByIdQueryHandler(GeniusDbContext context, IMapper mapper) : IRequestHandler<GetDecisionByIdQuery, DecisionDto>
 {
-    public async Task<GetDecisionDto> Handle(GetDecisionByIdQuery request, CancellationToken cancellationToken)
+    public async Task<DecisionDto> Handle(GetDecisionByIdQuery request, CancellationToken cancellationToken)
     {
         Console.WriteLine($"Handling GetDecisionByIdQuery for Id: {request.id}");
         var result = await context.Decisions.FindAsync(request.id);
-        var i = mapper.Map<GetDecisionDto>(result);
+        var i = mapper.Map<DecisionDto>(result);
 
         return i;
     }
 
-}
+}   

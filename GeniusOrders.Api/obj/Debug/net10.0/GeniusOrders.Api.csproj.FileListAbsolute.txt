@@ -156,3 +156,4 @@ E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Api\bin\Debug\net10.0\FluentValidation.d
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Api\bin\Debug\net10.0\FluentValidation.AspNetCore.dll
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Api\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Api\obj\Debug\net10.0\GeniusOrders.Api.MvcApplicationPartsAssemblyInfo.cs
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Api\obj\Debug\net10.0\GeniusOrders.Api.sourcelink.json

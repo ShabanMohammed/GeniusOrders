@@ -1,4 +1,5 @@
 using GeniusOrders.Api.Features.CreateDecision;
+using GeniusOrders.Api.Features.Dtos;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using FluentValidation;
@@ -23,7 +24,7 @@ public class DecisionController : ControllerBase
     }
 
     [HttpPost("create")]
-    public async Task<ActionResult> Create([FromBody] CreateDecisionDto decisionDto)
+    public async Task<ActionResult> Create([FromBody] DecisionDto decisionDto)
     {
 
 
@@ -87,13 +88,13 @@ public class DecisionController : ControllerBase
     }
 
     [HttpPut("update/{id}")]
-    public async Task<ActionResult> UpdateDecision(int id, [FromBody] UpdateDecisionDto decisionDto)
+    public async Task<ActionResult> UpdateDecision(int id, [FromBody] DecisionDto decisionDto)
     {
         if (decisionDto == null)
             return BadRequest("البيانات المُرسلة غير صحيحة");
 
         var exiteDecision = await _mediator.Send(new GetDecisionByIdQuery(id));
-        if (exiteDecision is null) 
+        if (exiteDecision is null)
             return NotFound($"القرار برقم {id} غير موجود");
 
         var command = new UpdateDecisionCommand
@@ -122,5 +123,6 @@ public class DecisionController : ControllerBase
         }
 
     }
+
 }
 

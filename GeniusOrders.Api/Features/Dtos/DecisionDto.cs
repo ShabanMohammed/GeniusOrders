@@ -1,9 +1,10 @@
 using AutoMapper;
 
-namespace GeniusOrders.Api.Features.CreateDecision;
+namespace GeniusOrders.Api.Features.Dtos;
 
-public record CreateDecisionDto
+public record DecisionDto
 {
+    public int? Id { get; init; }
     public int DecisionNumber { get; init; }
     public int DecisionYear { get; init; }
     public DateOnly DecisionDate { get; init; }
@@ -15,6 +16,7 @@ public class DecisionProfile : Profile
 {
     public DecisionProfile()
     {
-        CreateMap<CreateDecisionDto, Entities.Decision>();
+        CreateMap<DecisionDto, Entities.Decision>();
+        CreateMap<Entities.Decision, DecisionDto>();
     }
 }
