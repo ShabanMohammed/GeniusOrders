@@ -1,0 +1,28 @@
+POST http://localhost:5289/api/decision/create
+Content-Type:application/json
+
+{
+    "DecisionNumber":30,
+    "DecisionYear": 2026,
+    "DecisionDate": "2026-01-01",
+    "Content":"قرار تعيين السيد لوظفية",
+    "Attachment": null
+}
+
+###
+GET  http://localhost:5289/api/decision/4
+
+###
+GET  http://localhost:5289/api/decision/all
+
+###
+Put  http://localhost:5289/api/decision/update/4
+Content-Type: application/json
+
+{
+    "decisionNumber": 14,
+    "decisionYear": 2025,
+    "decisionDate": "2025-01-01",
+    "content": "قرار تعيين السيد لوظفية",
+    "attachment": "يلبيللي"
+}

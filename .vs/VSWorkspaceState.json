@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\GeniusOrders.Api",
+    "\\GeniusOrders.Api\\Controllers",
+    "\\GeniusOrders.Api\\Data",
+    "\\GeniusOrders.Api\\Features",
+    "\\GeniusOrders.Api\\Features\\Decision",
+    "\\GeniusOrders.Api\\Features\\Decision\\CreateDecision"
+  ],
+  "SelectedNode": "\\GeniusOrders.slnx",
+  "PreviewInSolutionExplorer": false
+}
