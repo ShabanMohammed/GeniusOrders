@@ -7,6 +7,8 @@ using GeniusOrders.Api.Features.GetByIdQuery;
 using AutoMapper;
 using GeniusOrders.Api.Features.GetAllQuery;
 using GeniusOrders.Api.Features.UpdateDecision;
+using GeniusOrders.Api.Features.DeleteDecision;
+using GeniusOrders.Api.Features.GetDecisions;
 namespace GeniusOrders.Api.Controllers;
 
 [ApiController]
@@ -72,12 +74,12 @@ public class DecisionController : ControllerBase
         }
     }
 
-    [HttpGet("all")]
-    public async Task<ActionResult> GetAll()
+    [HttpGet()]
+    public async Task<ActionResult> GetAll([FromQuery] GetDecisionsQuery query)
     {
         try
         {
-            var result = await _mediator.Send(new GetAllDecisionQuery());
+            var result = await _mediator.Send(query);
             return Ok(result);
         }
         catch (Exception ex)
@@ -124,5 +126,23 @@ public class DecisionController : ControllerBase
 
     }
 
+    [HttpDelete("delete/{id}")]
+    public async Task<ActionResult> DeleteDecision(int id)
+    {
+        try
+        {
+            var command = new DeleteDecisionCommand(id);
+            await _mediator.Send(command);
+            return NoContent();
+        }
+        catch (KeyNotFoundException ex)
+        {
+            return NotFound(ex.Message);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"حدث خطأ داخلي في الخادم: {ex.Message}");
+        }
+    }
 }
 

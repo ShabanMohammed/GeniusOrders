@@ -2,7 +2,7 @@ POST http://localhost:5289/api/decision/create
 Content-Type:application/json
 
 {
-    "DecisionNumber":30,
+    "DecisionNumber":140,
     "DecisionYear": 2026,
     "DecisionDate": "2026-01-01",
     "Content":"قرار تعيين السيد لوظفية",
@@ -10,11 +10,13 @@ Content-Type:application/json
 }
 
 ###
-GET  http://localhost:5289/api/decision/4
+GET  http://localhost:5289/api/decision/140
 
 ###
-GET  http://localhost:5289/api/decision/all
+DELETE   http://localhost:5289/api/decision/delete/4
 
+###
+GET  http://localhost:5289/api/decision?content=تعيين
 ###
 Put  http://localhost:5289/api/decision/update/4
 Content-Type: application/json

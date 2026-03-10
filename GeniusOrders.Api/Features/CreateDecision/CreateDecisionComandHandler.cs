@@ -20,7 +20,7 @@ public class CreateDecisionComandHandler(GeniusDbContext dbContext) : IRequestHa
 
         dbContext.Decisions.Add(decision);
         await dbContext.SaveChangesAsync(cancellationToken);
-        return decision.DecisionNumber;
+        return decision.Id;
 
     }
 }
