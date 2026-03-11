@@ -2,7 +2,7 @@ POST http://localhost:5289/api/decision/create
 Content-Type:application/json
 
 {
-    "DecisionNumber":140,
+    "DecisionNumber":1140,
     "DecisionYear": 2026,
     "DecisionDate": "2026-01-01",
     "Content":"قرار تعيين السيد لوظفية",
@@ -10,13 +10,13 @@ Content-Type:application/json
 }
 
 ###
-GET  http://localhost:5289/api/decision/140
+GET  http://localhost:5289/api/decision/3
 
 ###
 DELETE   http://localhost:5289/api/decision/delete/4
 
 ###
-GET  http://localhost:5289/api/decision?content=تعيين
+GET  http://localhost:5289/api/decision
 ###
 Put  http://localhost:5289/api/decision/update/4
 Content-Type: application/json
@@ -27,4 +27,14 @@ Content-Type: application/json
     "decisionDate": "2025-01-01",
     "content": "قرار تعيين السيد لوظفية",
     "attachment": "يلبيللي"
+}
+###
+POST http://localhost:5289/api/account/register
+Content-Type:application/json
+
+{
+    "fullName": "admin",
+    "username": "admin",
+    "department": "IT",
+    "password": "Password123!"
 }

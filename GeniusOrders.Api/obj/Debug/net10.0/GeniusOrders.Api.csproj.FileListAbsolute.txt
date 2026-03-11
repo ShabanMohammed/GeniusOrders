@@ -157,3 +157,7 @@ E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Api\bin\Debug\net10.0\FluentValidation.A
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Api\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Api\obj\Debug\net10.0\GeniusOrders.Api.MvcApplicationPartsAssemblyInfo.cs
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Api\obj\Debug\net10.0\GeniusOrders.Api.sourcelink.json
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Api\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Api\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll

@@ -9,8 +9,10 @@ using GeniusOrders.Api.Features.GetAllQuery;
 using GeniusOrders.Api.Features.UpdateDecision;
 using GeniusOrders.Api.Features.DeleteDecision;
 using GeniusOrders.Api.Features.GetDecisions;
+using Microsoft.AspNetCore.Authorization;
 namespace GeniusOrders.Api.Controllers;
 
+[Authorize]
 [ApiController]
 [Route("api/[controller]")]
 public class DecisionController : ControllerBase
