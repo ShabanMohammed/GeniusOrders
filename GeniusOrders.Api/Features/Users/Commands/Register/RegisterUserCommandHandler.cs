@@ -2,14 +2,7 @@ using GeniusOrders.Api.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 
-namespace GeniusOrders.Api.Features.Users.Commands;
-
-public record RegisterUserCommand(
-    string FullName,
-    string UserName,
-    string Department,
-    string Password
-) : IRequest<bool>;
+namespace GeniusOrders.Api.Features.Users.Commands.Register;
 
 public class RegisterUserCommandHandler(UserManager<User> userManager) : IRequestHandler<RegisterUserCommand, bool>
 {

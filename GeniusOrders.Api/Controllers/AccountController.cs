@@ -1,4 +1,4 @@
-using GeniusOrders.Api.Features.Users.Commands;
+using GeniusOrders.Api.Features.Users.Commands.Register;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
