@@ -1,8 +1,11 @@
+using System.Runtime.InteropServices;
 using System.Text;
 using FluentValidation;
 using GeniusOrders.Api.Behaviors;
 using GeniusOrders.Api.Data;
+using GeniusOrders.Api.Data.Services;
 using GeniusOrders.Api.Entities;
+using GeniusOrders.Api.Features.Interfaces;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -21,7 +24,7 @@ builder.Services.AddDbContext<GeniusDbContext>(options =>
 
 //2 Add MedaitR
 builder.Services.AddMediatR(options => options.RegisterServicesFromAssembly(typeof(Program).Assembly));
-
+builder.Services.AddScoped<ITokenService, TokenService>();
 //3- Add Validator
 builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
 
@@ -65,8 +68,37 @@ builder.Services.AddAuthentication(options =>
 #endregion
 var app = builder.Build();
 
+
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var userManager = services.GetRequiredService<UserManager<User>>();
+    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+
+    if (!await roleManager.RoleExistsAsync("Admin"))
+    {
+        await roleManager.CreateAsync(new IdentityRole("Admin"));
+    }
+    if (!await userManager.Users.AnyAsync())
+    {
+        var adminUser = new User
+        {
+            UserName = "admin",
+            FullName = "Admin User",
+
+
+        };
+        var result = await userManager.CreateAsync(adminUser, "Admin@123");
+        if (result.Succeeded)
+        {
+            await userManager.AddToRoleAsync(adminUser, "Admin");
+        }
+    }
+    ;
+}
 
 app.Run();

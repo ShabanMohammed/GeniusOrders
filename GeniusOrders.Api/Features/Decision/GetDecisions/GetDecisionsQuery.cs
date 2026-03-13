@@ -1,4 +1,4 @@
-using GeniusOrders.Api.Features.Commond;
+using GeniusOrders.Api.Features.Common;
 using GeniusOrders.Api.Features.Dtos;
 using MediatR;
 

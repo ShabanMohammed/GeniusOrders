@@ -1,5 +1,5 @@
 
-namespace GeniusOrders.Api.Features.Commond;
+namespace GeniusOrders.Api.Features.Common;
 
 public class PagedResponse<T>
 {
