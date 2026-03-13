@@ -32,8 +32,7 @@ public class DecisionController : ControllerBase
     {
 
 
-        try
-        {
+      
             var command = new CreateDecisionComand
             (
                 decisionDto.DecisionNumber,
@@ -46,49 +45,29 @@ public class DecisionController : ControllerBase
 
             // تم استخدام nameof(GetById) بدلاً من النص الثابت لضمان سلامة الكود
             return CreatedAtAction(nameof(GetById), new { Id = id }, id);
-        }
-        catch (ValidationException ex)
-        {
-
-            return BadRequest(ex.Message);
-        }
-        catch (Exception ex)
-        {
-
-            return StatusCode(500, $"حدث خطأ داخلي في الخادم: {ex.Message}");
-        }
+        
+       
     }
 
     [HttpGet("{id}")]
     public async Task<ActionResult> GetById(int id)
     {
-        try
-        {
+      
             var result = await _mediator.Send(new GetDecisionByIdQuery(id));
             if (result == null)
                 return NotFound();
             return Ok(result);
-        }
-        catch (Exception ex)
-        {
-
-            return StatusCode(500, $"حدث خطأ أثناء معالجة الطلب{ex.Message}");
-        }
+       
+        
     }
 
     [HttpGet()]
     public async Task<ActionResult> GetAll([FromQuery] GetDecisionsQuery query)
     {
-        try
-        {
+       
             var result = await _mediator.Send(query);
             return Ok(result);
-        }
-        catch (Exception ex)
-        {
-
-            return StatusCode(500, $"حدث خطأ أثناء معالجة الطلب{ex.Message}");
-        }
+       
     }
 
     [HttpPut("update/{id}")]
@@ -97,9 +76,7 @@ public class DecisionController : ControllerBase
         if (decisionDto == null)
             return BadRequest("البيانات المُرسلة غير صحيحة");
 
-        var exiteDecision = await _mediator.Send(new GetDecisionByIdQuery(id));
-        if (exiteDecision is null)
-            return NotFound($"القرار برقم {id} غير موجود");
+      
 
         var command = new UpdateDecisionCommand
         (
@@ -110,41 +87,21 @@ public class DecisionController : ControllerBase
             decisionDto.Content,
             decisionDto.Attachment
         );
-        try
-        {
+       
             await _mediator.Send(command);
             return NoContent();
-        }
-        catch (ValidationException ex)
-        {
-
-            return BadRequest(ex.Message);
-        }
-        catch (Exception ex)
-        {
-
-            return StatusCode(500, $"حدث خطأ داخلي في الخادم: {ex.Message}");
-        }
+        
 
     }
 
     [HttpDelete("delete/{id}")]
     public async Task<ActionResult> DeleteDecision(int id)
     {
-        try
-        {
+       
             var command = new DeleteDecisionCommand(id);
             await _mediator.Send(command);
             return NoContent();
-        }
-        catch (KeyNotFoundException ex)
-        {
-            return NotFound(ex.Message);
-        }
-        catch (Exception ex)
-        {
-            return StatusCode(500, $"حدث خطأ داخلي في الخادم: {ex.Message}");
-        }
+        
     }
 }
 

@@ -6,6 +6,7 @@ using GeniusOrders.Api.Data;
 using GeniusOrders.Api.Data.Services;
 using GeniusOrders.Api.Entities;
 using GeniusOrders.Api.Features.Interfaces;
+using GeniusOrders.Api.Middleware;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -72,6 +73,7 @@ var app = builder.Build();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+app.UseMiddleware<ExceptionMiddleware>();
 
 using (var scope = app.Services.CreateScope())
 {

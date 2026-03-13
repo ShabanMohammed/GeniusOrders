@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GeniusOrders.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6b357dca91eddaea98391c5187ee99f7b3ad4b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10a0b51468e533b6e8c84ba55014f9ea3e4a837d")]
 [assembly: System.Reflection.AssemblyProductAttribute("GeniusOrders.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GeniusOrders.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

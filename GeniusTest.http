@@ -1,4 +1,4 @@
-@token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIxOTY5MzcxOC04MGE4LTRjYzctODkwYi1hNWRjNTY4NjU0NjEiLCJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzczNDI3OTMyLCJleHAiOjE3NzM0MzE1MzIsImlhdCI6MTc3MzQyNzkzMiwiaXNzIjoiR2VuaXVzT3JkZXJzLkFwaSIsImF1ZCI6Ikdlbml1c09yZGVycy5DbGllbnQifQ.iREo_MkBcgg3X8YYiwcppARqBGAULLAsX3cS9WODFc0
+@token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIxOTY5MzcxOC04MGE4LTRjYzctODkwYi1hNWRjNTY4NjU0NjEiLCJ1bmlxdWVfbmFtZSI6ImFkbWluIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzczNDMxNTE0LCJleHAiOjE3NzM0MzUxMTQsImlhdCI6MTc3MzQzMTUxNCwiaXNzIjoiR2VuaXVzT3JkZXJzLkFwaSIsImF1ZCI6Ikdlbml1c09yZGVycy5DbGllbnQifQ.pkqipu6S-zACAEbO7QaFXucS2EOE2Hxs0tDj8nOxi6k
 POST http://localhost:5289/api/decision/create
 Authorization: Bearer {{token}}
 Content-Type:application/json
@@ -22,7 +22,8 @@ DELETE   http://localhost:5289/api/decision/delete/1
 GET  http://localhost:5289/api/decision
 Authorization: Bearer {{token}}
 ###
-Put  http://localhost:5289/api/decision/update/4
+Put  http://localhost:5289/api/decision/update/2
+Authorization: Bearer {{token}}
 Content-Type: application/json
 
 {

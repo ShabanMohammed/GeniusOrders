@@ -12,7 +12,7 @@ public class UpdateDecisionCommandHandler(GeniusDbContext dbContext) : IRequestH
 
         if (decision is null)
         {
-            throw new Exception("القرار غير موجود");
+            throw new KeyNotFoundException("القرار غير موجود");
         }
 
         decision.DecisionNumber = request.DecisionNumber;
