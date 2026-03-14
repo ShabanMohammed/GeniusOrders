@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "u1VQRlOHGm8=",
+  "success": true,
+  "projectFilePath": "E:\\c#\\ASP.NET\\GeniusOrders\\GeniusOrders\\GeniusOrders.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shaban\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.0\\microsoft.aspnetcore.app.internal.assets.10.0.0.nupkg.sha512",
+    "C:\\Users\\shaban\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\10.0.0\\microsoft.aspnetcore.components.webassembly.10.0.0.nupkg.sha512",
+    "C:\\Users\\shaban\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\10.0.0\\microsoft.aspnetcore.components.webassembly.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\shaban\\.nuget\\packages\\microsoft.dotnet.hotreload.webassembly.browser\\10.0.100\\microsoft.dotnet.hotreload.webassembly.browser.10.0.100.nupkg.sha512",
+    "C:\\Users\\shaban\\.nuget\\packages\\microsoft.jsinterop.webassembly\\10.0.0\\microsoft.jsinterop.webassembly.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
