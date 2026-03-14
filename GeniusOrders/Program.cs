@@ -30,7 +30,7 @@ builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
 builder.Services.AddTransient(typeof(IPipelineBehavior<,> ) , typeof(ValidationBehavior<,>));
 
-builder.Services.AddAutoMapper(typeof(Program).Assembly);
+builder.Services.AddAutoMapper(config => { }, typeof(Program).Assembly);
 builder.Services.AddControllers();
 
 
