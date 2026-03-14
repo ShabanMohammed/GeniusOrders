@@ -1,8 +1,8 @@
 using AutoMapper;
-using GeniusOrders.Api.Data;
+using GeniusOrders.Data;
 using MediatR;
-using GeniusOrders.Api.Entities;
-using GeniusOrders.Api.Features.CreateDecision;
+using GeniusOrders.Entities;
+using GeniusOrders.Features.CreateDecision;
 
 namespace GeniusOrders.Features.CreateDecision;
 

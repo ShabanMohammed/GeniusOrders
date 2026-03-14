@@ -1,5 +1,5 @@
-using GeniusOrders.Api.Features.Common;
-using GeniusOrders.Api.Features.Dtos;
+using GeniusOrders.Features.Common;
+using GeniusOrders.Client.Dtos;
 using MediatR;
 
 namespace GeniusOrders.Features.GetDecisions;

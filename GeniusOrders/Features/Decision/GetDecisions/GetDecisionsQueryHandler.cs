@@ -1,6 +1,6 @@
-using GeniusOrders.Api.Data;
-using GeniusOrders.Api.Features.Common;
-using GeniusOrders.Api.Features.Dtos;
+using GeniusOrders.Data;
+using GeniusOrders.Features.Common;
+using GeniusOrders.Client.Dtos;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 

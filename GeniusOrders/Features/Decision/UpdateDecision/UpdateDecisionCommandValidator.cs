@@ -1,6 +1,6 @@
 using FluentValidation;
-using GeniusOrders.Api.Data;
-using GeniusOrders.Api.Entities;
+using GeniusOrders.Data;
+using GeniusOrders.Entities;
 using Microsoft.EntityFrameworkCore;
 
 

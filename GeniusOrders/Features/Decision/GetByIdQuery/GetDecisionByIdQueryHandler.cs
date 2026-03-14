@@ -1,6 +1,6 @@
 using AutoMapper;
-using GeniusOrders.Api.Data;
-using GeniusOrders.Api.Features.Dtos;
+using GeniusOrders.Data;
+using GeniusOrders.Client.Dtos;
 using MediatR;
 
 namespace GeniusOrders.Features.GetByIdQuery;

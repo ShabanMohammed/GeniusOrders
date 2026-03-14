@@ -1,5 +1,5 @@
-using GeniusOrders.Api.Entities;
-using GeniusOrders.Api.Features.Interfaces;
+using GeniusOrders.Entities;
+using GeniusOrders.Features.Interfaces;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 

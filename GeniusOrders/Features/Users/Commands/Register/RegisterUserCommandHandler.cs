@@ -1,4 +1,4 @@
-using GeniusOrders.Api.Entities;
+using GeniusOrders.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 

@@ -1,4 +1,4 @@
-using GeniusOrders.Api.Entities;
+using GeniusOrders.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

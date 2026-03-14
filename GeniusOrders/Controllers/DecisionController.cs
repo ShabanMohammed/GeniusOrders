@@ -1,14 +1,14 @@
-using GeniusOrders.Api.Features.CreateDecision;
-using GeniusOrders.Api.Features.Dtos;
+using GeniusOrders.Features.CreateDecision;
+using GeniusOrders.Client.Dtos;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using FluentValidation;
-using GeniusOrders.Api.Features.GetByIdQuery;
+using GeniusOrders.Features.GetByIdQuery;
 using AutoMapper;
-using GeniusOrders.Api.Features.GetAllQuery;
-using GeniusOrders.Api.Features.UpdateDecision;
-using GeniusOrders.Api.Features.DeleteDecision;
-using GeniusOrders.Api.Features.GetDecisions;
+using GeniusOrders.Features.GetAllQuery;
+using GeniusOrders.Features.UpdateDecision;
+using GeniusOrders.Features.DeleteDecision;
+using GeniusOrders.Features.GetDecisions;
 using Microsoft.AspNetCore.Authorization;
 namespace GeniusOrders.Controllers;
 

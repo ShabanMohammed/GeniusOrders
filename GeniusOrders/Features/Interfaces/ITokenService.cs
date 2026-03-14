@@ -1,4 +1,4 @@
-using GeniusOrders.Api.Entities;
+using GeniusOrders.Entities;
 
 namespace GeniusOrders.Features.Interfaces
 {

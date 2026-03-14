@@ -1,4 +1,4 @@
-using GeniusOrders.Api.Data;
+using GeniusOrders.Data;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,8 +1,8 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using GeniusOrders.Api.Entities;
-using GeniusOrders.Api.Features.Interfaces;
+using GeniusOrders.Entities;
+using GeniusOrders.Features.Interfaces;
 using Microsoft.IdentityModel.Tokens;
 
 namespace GeniusOrders.Data.Services

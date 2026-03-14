@@ -1,5 +1,5 @@
-using GeniusOrders.Api.Features.Users.Commands.Login;
-using GeniusOrders.Api.Features.Users.Commands.Register;
+using GeniusOrders.Features.Users.Commands.Login;
+using GeniusOrders.Features.Users.Commands.Register;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

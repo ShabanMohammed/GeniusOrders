@@ -1,4 +1,4 @@
-using GeniusOrders.Api.Features.Dtos;
+using GeniusOrders.Client.Dtos;
 using MediatR;
 using Microsoft.AspNetCore.Http.HttpResults;
 
