@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "GeniusOrders.Client",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-AFAuNL60xP6zgf8efiODWUp/8mGdPtlB+LDSLLwjcjk=",
+    "hash": "sha256-mup8t2LNMLVAe+RpKMNZOi8fMy4sVf5Vw6f9fEdXM8Y=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.xanz2e7ksm.js"
@@ -1039,15 +1039,15 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "GeniusOrders.Client.wasm",
-        "name": "GeniusOrders.Client.itng0bc0gs.wasm",
-        "integrity": "sha256-aleqfH+4R6m4RKrWNFpiy6Yi4N4weDe3Cj9WZv6NlN0="
+        "name": "GeniusOrders.Client.x0cvqyab8q.wasm",
+        "integrity": "sha256-odBN7ZDScA5VU4d9QFW3KweU6xVe92YRwX2fxLNm0Jw="
       }
     ],
     "pdb": [
       {
         "virtualPath": "GeniusOrders.Client.pdb",
-        "name": "GeniusOrders.Client.v13y4miyd3.pdb",
-        "integrity": "sha256-83/lqDQcW3d4QxeF7LmXN17dkLLPN/1q2EZNHbTHqmw="
+        "name": "GeniusOrders.Client.4pyr59fsva.pdb",
+        "integrity": "sha256-mD70yVkTjujvOGFZF/GtPZg/pkyJTOvwaDQ8M8zSTQo="
       }
     ],
     "libraryInitializers": [

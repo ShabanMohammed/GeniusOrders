@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "bNVcYol+hYM=",
+  "dgSpecHash": "J5RsrM8TlP0=",
   "success": true,
   "projectFilePath": "E:\\c#\\ASP.NET\\GeniusOrders\\GeniusOrders\\GeniusOrders.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shaban\\.nuget\\packages\\automapper\\16.1.1\\automapper.16.1.1.nupkg.sha512",
     "C:\\Users\\shaban\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\shaban\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
     "C:\\Users\\shaban\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\shaban\\.nuget\\packages\\mediatr\\14.1.0\\mediatr.14.1.0.nupkg.sha512",
     "C:\\Users\\shaban\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

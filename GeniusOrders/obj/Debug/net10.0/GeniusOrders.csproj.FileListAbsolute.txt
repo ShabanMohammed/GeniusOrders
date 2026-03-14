@@ -237,3 +237,5 @@ E:\c#\ASP.NET\GeniusOrders\GeniusOrders\obj\Debug\net10.0\refint\GeniusOrders.dl
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders\obj\Debug\net10.0\GeniusOrders.pdb
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders\obj\Debug\net10.0\GeniusOrders.genruntimeconfig.cache
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders\obj\Debug\net10.0\ref\GeniusOrders.dll
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders\bin\Debug\net10.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders\bin\Debug\net10.0\FluentValidation.DependencyInjectionExtensions.dll

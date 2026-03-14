@@ -207,8 +207,6 @@ E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framew
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
-E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\GeniusOrders.Client.itng0bc0gs.wasm
-E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\GeniusOrders.Client.v13y4miyd3.pdb
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.js
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\blazor.webassembly.js.gz
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.f7yamg8acn.wasm.gz
@@ -418,8 +416,6 @@ E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framew
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\GeniusOrders.Client.itng0bc0gs.wasm.gz
-E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\GeniusOrders.Client.v13y4miyd3.pdb.gz
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.js.gz
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\GeniusOrders.Client.staticwebassets.runtime.json
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\GeniusOrders.Client.staticwebassets.endpoints.json
@@ -1060,9 +1056,6 @@ E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\compressed\j7gn
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\compressed\stsywzemf6-{0}-tjcz0u77k5-tjcz0u77k5.gz
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\compressed\7kspozx3p0-{0}-tptq2av103-tptq2av103.gz
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\compressed\xo9b5nrc7q-{0}-lfu7j35m59-lfu7j35m59.gz
-E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\compressed\77r9d8kqez-{0}-itng0bc0gs-itng0bc0gs.gz
-E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\compressed\ofqh9ri0xw-{0}-v13y4miyd3-v13y4miyd3.gz
-E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\compressed\p415udtzi4-{0}-rwlqi8a54i-rwlqi8a54i.gz
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\staticwebassets.build.json
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\staticwebassets.build.json.cache
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\staticwebassets.development.json
@@ -1073,3 +1066,10 @@ E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\GeniusOrders.Cl
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\refint\GeniusOrders.Client.dll
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\GeniusOrders.Client.pdb
 E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\ref\GeniusOrders.Client.dll
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\GeniusOrders.Client.x0cvqyab8q.wasm
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\GeniusOrders.Client.4pyr59fsva.pdb
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\GeniusOrders.Client.x0cvqyab8q.wasm.gz
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\bin\Debug\net10.0\wwwroot\_framework\GeniusOrders.Client.4pyr59fsva.pdb.gz
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\compressed\77r9d8kqez-{0}-x0cvqyab8q-x0cvqyab8q.gz
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\compressed\ofqh9ri0xw-{0}-4pyr59fsva-4pyr59fsva.gz
+E:\c#\ASP.NET\GeniusOrders\GeniusOrders.Client\obj\Debug\net10.0\compressed\p415udtzi4-{0}-h76pkq394b-h76pkq394b.gz
